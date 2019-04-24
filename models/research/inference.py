@@ -9,7 +9,7 @@ from PIL import Image
 from utils import visualization_utils as vis_util
 from utils import label_map_util
 
-if tf.__version__ < '1.4.0':
+if tf.__version__ < '1.04.0':
     raise ImportError('Please upgrade your tensorflow installation to v1.4.* or later!')
 
 NUM_CLASSES = 5
